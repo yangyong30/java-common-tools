@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class CheckUtilsTest {
     @Test
-    public void isAnyEmptyTest(){
-
+    public void test() {
+        Assert.assertFalse(CheckUtils.isAnyEmpty("2", "", "2", null));
     }
 }
